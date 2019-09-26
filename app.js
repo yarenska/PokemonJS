@@ -1,7 +1,11 @@
 const express = require('express');
 const fs = require('fs')
 const bodyParser = require('body-parser')
+var cors = require('cors')
 const app = express()
+
+// Enable CORS
+app.use(cors())
 
 app.use((err, req, res, next) => {
     res.locals.message = err.message

@@ -73,14 +73,11 @@ export default {
         this.myClass = "card card--grass"
         this.type = "grass"
       }
-      console.log(resp.data[0].base.Sp. Attack)
       })
     .catch(err => console.log(err))
   }
 }
 </script>
-
-
 
 <style scoped lang="scss">
 @import "../styles/style.scss"

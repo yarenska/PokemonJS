@@ -21,7 +21,11 @@ const PokemonSchema = new Schema({
             to: String,
             _id: String
         }
-    ]
+    ],
+    base: {
+        type: Object,
+        default: {}
+    }
 })
 
 module.exports = mongoose.model('Pokemon', PokemonSchema)

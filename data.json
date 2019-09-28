@@ -5,7 +5,7 @@
       "national_id": 1,
       "name": "Bulbasaur",
       "__v": 3,
-      "image_url": "http://pokeapi.co/media/img/1.png",
+      "image_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
       "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
       "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png",
       "types": [
@@ -19,7 +19,15 @@
           "to": "Ivysaur",
           "_id": "557a723880a20c9db3bc31c3"
         }
-      ]
+      ],
+      "base": {
+        "HP": 45,
+        "Attack": 49,
+        "Defense": 49,
+        "Sp. Attack": 65,
+        "Sp. Defense": 65,
+        "Speed": 45
+      }
     },
     {
       "_id": "557a723980a20c9db3bc31e3",
@@ -27,7 +35,7 @@
       "national_id": 2,
       "name": "Ivysaur",
       "__v": 4,
-      "image_url": "http://pokeapi.co/media/img/2.png",
+      "image_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
       "description": "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.  There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
       "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/002.png",
       "types": [
@@ -41,7 +49,15 @@
           "to": "Venusaur",
           "_id": "557a723980a20c9db3bc31e4"
         }
-      ]
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 62,
+        "Defense": 63,
+        "Sp. Attack": 80,
+        "Sp. Defense": 80,
+        "Speed": 60
+      }
     },
     {
       "_id": "557a723880a20c9db3bc31cc",
@@ -49,7 +65,7 @@
       "national_id": 3,
       "name": "Venusaur",
       "__v": 5,
-      "image_url": "http://pokeapi.co/media/img/3.png",
+      "image_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
       "description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.  There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
       "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/003.png",
       "types": [
@@ -62,7 +78,15 @@
           "to": "Venusaur-mega",
           "_id": "557a723880a20c9db3bc31cd"
         }
-      ]
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 82,
+        "Defense": 83,
+        "Sp. Attack": 100,
+        "Sp. Defense": 100,
+        "Speed": 80
+      }
     },
     {
       "_id": "557a723880a20c9db3bc31c8",
@@ -70,7 +94,7 @@
       "national_id": 4,
       "name": "Charmander",
       "__v": 3,
-      "image_url": "http://pokeapi.co/media/img/4.png",
+      "image_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
       "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.  The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
       "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/004.png",
       "types": [
@@ -83,7 +107,15 @@
           "to": "Charmeleon",
           "_id": "557a723880a20c9db3bc31c9"
         }
-      ]
+      ],
+      "base": {
+        "HP": 39,
+        "Attack": 52,
+        "Defense": 43,
+        "Sp. Attack": 60,
+        "Sp. Defense": 50,
+        "Speed": 65
+      }
     },
     {
       "_id": "557a723980a20c9db3bc31e8",
@@ -91,7 +123,7 @@
       "national_id": 5,
       "name": "Charmeleon",
       "__v": 3,
-      "image_url": "http://pokeapi.co/media/img/5.png",
+      "image_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
       "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.  Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
       "art_url": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/005.png",
       "types": [
@@ -104,6 +136,14 @@
           "to": "Charizard",
           "_id": "557a723980a20c9db3bc31e9"
         }
-      ]
+      ],
+      "base": {
+        "HP": 58,
+        "Attack": 64,
+        "Defense": 58,
+        "Sp. Attack": 80,
+        "Sp. Defense": 65,
+        "Speed": 80
+      }
     }
   ]

@@ -28,7 +28,22 @@ const Pokemon = require('./models/Pokemon')
 app.get('/', (req, res) =>{
     const promise = Pokemon.find({})
     promise.then(data => res.json(data)).catch(err => res.json(err))
-    
+    // The same works with a callback function:
+    /*Pokemon.find({}, function(data, err){
+        if(data)
+            res.json(data)
+        else
+            res.json(err)
+    })*/
+})
+
+app.get('/:id', (req, res, next) => {
+    const promise = Pokemon.find({national_id:req.params.id})
+    promise.then((pokemon) => {
+        if(!pokemon)
+            next({message: "The pokemon doesn't exist"})
+        res.json(pokemon)
+    }).catch(err => res.json(err))
 })
 
 app.listen(process.env.PORT || 3000, () => {
